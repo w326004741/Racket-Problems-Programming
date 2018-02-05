@@ -5,7 +5,7 @@
 ; > (lcycle (list 1 2 3 4 5)) ===>   '(2 3 4 5 1)
 ; > (rcycle (list 1 2 3 4 5))  ===> '(5 1 2 3 4)
 
-; reference: problem-sheet no.9 question(reversel)
+; reference: problem-sheet no.9 question(reversing a list)
 
 (define (lcycle l)
     (append (cdr l) (list(car l)))

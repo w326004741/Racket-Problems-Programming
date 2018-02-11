@@ -4,7 +4,6 @@
 ;               can not be divisible by other natural number. 
 ;               A natural number greater than 1 that is not prime is called a `composite number`
 ; 质数又称素数。一个大于1的自然数，除了1和它自身外，不能被其他自然数整除的数叫做质数；否则称为合数。
-           ; n must >=2
 (define (prime-filter n m)
     (if (= n m)         ; if n is prime, first of all should be n = itself or 1
     #t
@@ -12,7 +11,7 @@
     #f
     (prime-filter n (+ m 1))))) ; try next number of m (m+1), whether can be divided by n
 
-(define m 2) 
+(define m 2) ; n must >=2
 (define (decide-prime n)
     (if (< n 2)       ; 1 is not prime and does not consifer negative integers and 0
                       ; so if n <= 1, then n is not prime(false).

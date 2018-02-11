@@ -7,9 +7,9 @@
 
 
 ## Reference:
-[Racket cond](https://docs.racket-lang.org/guide/conditionals.html)
+[Racket cond](https://docs.racket-lang.org/guide/conditionals.html)                                              
 
-[Collatz Conjecture Wikipedia](https://docs.racket-lang.org/guide/conditionals.html)
+[Collatz Conjecture Wikipedia](https://docs.racket-lang.org/guide/conditionals.html)                                        
 
 [Collatz Conjecture Wikipedia Chinese / 考拉兹猜想](https://zh.wikipedia.org/wiki/%E8%80%83%E6%8B%89%E5%85%B9%E7%8C%9C%E6%83%B3)
 

@@ -5,8 +5,25 @@
 
 > Student: [Weichen Wang](https://github.com/w326004741)
 
+## What is Racket?
+[Racket](https://racket-lang.org/) is a general purpose, multi-paradigm programming language in the Lisp-Scheme family. One of its design goals is to
+serve as a platform for language creation, design, and implementation. The language is used in a variety of contexts such as
+scripting, general-purpose programming, computer science education, and research.
+
+## Getting started with Racket
+- Download and Install Racket click [here](https://download.racket-lang.org/), and then started DrRacket.
+- [Racket Documentation](https://docs.racket-lang.org/)
+- [Getting Started Tutorial](https://docs.racket-lang.org/getting-started/index.html)
+- [Basic Expression with Racket](https://github.com/w326004741/Racket-Ex/blob/master/1.basic_expression.rkt)
+- [Racket Exercise repository](https://github.com/w326004741/Racket-Ex)
+
+
+
+
 
 ## Reference:
+[vscode-tasks.json Document - Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
+
 [Racket cond](https://docs.racket-lang.org/guide/conditionals.html)                                              
 
 [Collatz Conjecture Wikipedia](https://docs.racket-lang.org/guide/conditionals.html)                                        

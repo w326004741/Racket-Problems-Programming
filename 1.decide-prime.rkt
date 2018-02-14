@@ -4,10 +4,14 @@
 ;               can not be divisible by other natural number. 
 ;               A natural number greater than 1 that is not prime is called a `composite number`
 ; 质数又称素数。一个大于1的自然数，除了1和它自身外，不能被其他自然数整除的数叫做质数；否则称为合数。
+; 判断素数的要求：1. 大于1的自然数。 2. 只能被1和本身整除。 这两个必要条件需要2个函数去实现。
+; 所以在函数decide-prime中，我们的首要条件是满足 n 必须大于等于2，So 设置第一个判定条件: 如果n<2，则输出false。
+; 在函数prime-filter中，继续实现第二个必要条件。添加一个参数m＝2,如果n等于m=2,则为true,如果满足则进行下一步，判断 n 能否整除 m
+; 如果两者都满足，并且n < 2,则n 为素数。如果不满足m=n,则尝试m+1的数字，是否等于n,并且是否能被n整除.
 (define (prime-filter n m)
-    (if (= n m)         ; if n is prime, first of all should be n = itself or 1
+    (if (= n m)         ; if n is prime, first of all should be m = n. 
     #t
-    (if (= (modulo n m) 0) ; prime can not be divisible by other natural number
+    (if (= (modulo n m) 0) ; prime can not be divisible by other natural number,so have not remainder
     #f
     (prime-filter n (+ m 1))))) ; try next number of m (m+1), whether can be divided by n
 

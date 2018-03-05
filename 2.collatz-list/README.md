@@ -1,1 +1,10 @@
 ## collatz-list
+
+
+
+
+
+
+
+
+## References:

@@ -27,6 +27,7 @@
 (decide-prime 100) ; #f
 (decide-prime 127) ; #t
 (decide-prime 997) ; #t
+(
 
 ; Reference: https://stackoverflow.com/questions/13791047/scheme-prime-numbers
 ; Wikipedia: https://en.wikipedia.org/wiki/Prime_number

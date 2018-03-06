@@ -3,7 +3,7 @@
 > Lecturer: Dr Ian McLoughlin  
 > [Problems Programming Sheet](https://github.com/w326004741/Racket-Problems-Programming/blob/master/problems-programming%20project.pdf)  
 
-> Student: [Weichen Wang](https://github.com/w326004741)
+> by: [Weichen Wang](https://w326004741.github.io/)
 
 ## What is Racket?
 [Racket](https://racket-lang.org/) is a general purpose, multi-paradigm programming language in the Lisp-Scheme family. One of its design goals is to

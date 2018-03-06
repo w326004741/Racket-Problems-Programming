@@ -2,6 +2,19 @@
 > by - [Weichen Wang](https://w326004741.github.io/)
 
 
+### What is [Hamming Weight](https://en.wikipedia.org/wiki/Hamming_weight)?
+The Hamming weight of a string is the number of symbols that are different from the zero-symbol of the alphabet used. It is thus equivalent to the Hamming distance from the all-zero string of the same length. For the most typical case, a string of bits, this is the number of 1's in the string, or the digit sum of the binary representation of a given number and the ℓ₁ norm of a bit vector. In this binary case, it is also called the population count, popcount, sideways sum, or bit summation.
+
+### Examples
+|String|Hamming weight|
+|---|---
+|**111**0**1**|4|
+|**111**0**1**000|4|
+|00000000|0|
+|**789**0**1234**0**567**|10|
+
+***
+
 ### Question:
 5.Write a function hamming-weight in Racket that takes a list l as input and returns the number of non-zero elements in it. For example:
 ```Racket
@@ -88,6 +101,7 @@ Return (> x 0).
 
 
 ## References:
+- [Hamming Weight - Wiki](https://en.wikipedia.org/wiki/Hamming_weight)
 
 - [Racket docs - positive? & exact-positive-integer?](http://docs.racket-lang.org/reference/number-types.html?q=positive%3F#%28def._%28%28quote._~23~25kernel%29._positive~3f%29%29)
 

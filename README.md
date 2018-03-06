@@ -21,7 +21,7 @@ scripting, general-purpose programming, computer science education, and research
 
 
 
-## Reference:
+## References:
 [vscode-tasks.json Document - Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 
 [Racket cond](https://docs.racket-lang.org/guide/conditionals.html)                                              
@@ -37,3 +37,13 @@ scripting, general-purpose programming, computer science education, and research
 [Prime Number Wikipedia Chinese](https://zh.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0)
 
 [decide-prime stackoverflow](https://stackoverflow.com/questions/13791047/scheme-prime-numbers)
+
+[Racket docs - combinations](https://docs.racket-lang.org/reference/pairs.html?q=combinations#%28def._%28%28lib._racket%2Flist..rkt%29._combinations%29%29)
+
+[sum items in list racket - apply](https://stackoverflow.com/questions/41512010/sum-items-in-list-racket)
+
+[Racket docs - filter](https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28lib._racket%2Fprivate%2Flist..rkt%29._filter%29%29)
+
+[Hamming Weight - Wiki](https://en.wikipedia.org/wiki/Hamming_weight)
+
+[Racket docs - positive? & exact-positive-integer?](http://docs.racket-lang.org/reference/number-types.html?q=positive%3F#%28def._%28%28quote._~23~25kernel%29._positive~3f%29%29)

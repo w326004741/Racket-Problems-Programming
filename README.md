@@ -24,7 +24,7 @@ scripting, general-purpose programming, computer science education, and research
 ## References:
 [vscode-tasks.json Document - Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 
-[Racket cond](https://docs.racket-lang.org/guide/conditionals.html)                                              
+[Racket cond](https://docs.racket-lang.org/reference/if.html?q=cond#%28form._%28%28lib._racket%2Fprivate%2Fletstx-scheme..rkt%29._cond%29%29)                                              
 
 [Collatz Conjecture Wikipedia](https://docs.racket-lang.org/guide/conditionals.html)                                        
 

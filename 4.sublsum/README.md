@@ -2,7 +2,7 @@
 > by - [Weichen Wang](https://w326004741.github.io/)
 
 
-### Question:
+## Question:
 4.Write a function sublsum in Racket that takes a list (of integers) as input and re- turns a list of sublists of it that sum to zero. For this problem, you can use the combinations built-in function. Note the order of the sublists and their elements doesn’t matter. For example:
 ```Racket
 > (sublsum (list 1 2 3 4 -5))
@@ -11,14 +11,14 @@
    '()
 ```
 
-### Solution Idea:
+## Solution Idea:
 ```
 1. calculate the sum of the element in the list is 0（计算list内元素和为0）
 2. using combinations get powersets of list (用combiniations 实现 list的powersets幂集)
 3. filtered out the sum of the element of the sub-list is 0 from powersets of the list(从powersets中过滤出子列表内元素和为0的子列表) 
 ```
 
-### Solution Code:
+## Solution Code:
 #### Step 1
 ```Racket
 Step 1
@@ -34,7 +34,7 @@ Step 1
    (filter sublsum1 (cdr (combinations l))) )
 ```
 
-### About combinations:
+## About combinations:
 
 #### Idea:
 Return a list of all combinations of elements in the input list (aka the powerset of lst). If size is given, limit results to combinations of size elements.
@@ -59,7 +59,7 @@ Return a list of all combinations of elements in the input list (aka the powerse
 0
 ```
 
-### Question Output:
+## Question Output:
 ```Racket
 > (sublsum (list 1 2 3 4 -5))
 '((2 3 -5) (1 4 -5))

@@ -2,10 +2,10 @@
 > by - [Weichen Wang](https://w326004741.github.io/)
 
 
-### What is [Hamming Weight](https://en.wikipedia.org/wiki/Hamming_weight)?
+## What is [Hamming Weight](https://en.wikipedia.org/wiki/Hamming_weight)?
 The Hamming weight of a string is the number of symbols that are different from the zero-symbol of the alphabet used. It is thus equivalent to the Hamming distance from the all-zero string of the same length. For the most typical case, a string of bits, this is the number of 1's in the string, or the digit sum of the binary representation of a given number and the ℓ₁ norm of a bit vector. In this binary case, it is also called the population count, popcount, sideways sum, or bit summation.
 
-### Examples
+## Examples
 |String|Hamming weight|
 |---|---
 |**111**0**1**|4|
@@ -15,20 +15,20 @@ The Hamming weight of a string is the number of symbols that are different from 
 
 ***
 
-### Question:
+## Question:
 5.Write a function hamming-weight in Racket that takes a list l as input and returns the number of non-zero elements in it. For example:
 ```Racket
 > (hamming-weight (list 1 0 1 0 1 1 1 0))
     5
 ```
 
-### Solution Idea:
+## Solution Idea:
 ```
 1. Filtered out elements of the list whose element is non-zero. (using positive? or exact-positive-integer? - Racket Docs)
 2. Calculate the number of the elements after filtered. (using apply - Racket Docs) 
 ```
 
-### Solution Code:
+## Solution Code:
 #### Step 1
 ```Racket
 ; check the l is not empty list
@@ -53,7 +53,7 @@ or
     (apply + (filter positive? l))))
 ```
 
-### About apply:
+## About apply:
 #### Examples:
 ```Racket
 > (apply + '(1 2 3))
@@ -64,7 +64,7 @@ or
 0
 ```
 
-### About positive:
+## About positive:
 #### Procedure
 ```Racket
 (positive? x) → boolean?    
@@ -83,14 +83,14 @@ Return (> x 0).
 #f
 ```
 
-### About filter:
+## About filter:
 #### Examples:
 ```Racket
 > (filter positive? '(1 -2 3 4 -5))
 '(1 3 4)
 ```
 
-### Question Output:
+## Question Output:
 ```Racket
 > (hamming-weight (list 1 0 1 0 1 1 1 0))
     5

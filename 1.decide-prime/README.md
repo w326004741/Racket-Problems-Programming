@@ -1,22 +1,22 @@
 # Theory-of-Algorithms
 > by - [Weichen Wang](https://w326004741.github.io/)
 
-### What is [Prime Number?](https://en.wikipedia.org/wiki/Prime_number)
+## What is [Prime Number?](https://en.wikipedia.org/wiki/Prime_number)
 A prime number (or a prime) is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number.
 
 ***
 
-### Question:
+## Question:
 1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes a single positive integer and return true if the number is a prime and false otherwise. Call the function decide-prime.
 
-### Solution Idea:
+## Solution Idea:
 ```
 1. Prime number is a natural number greater than 1. 
 2. Except 1 and the number itself, can not be divisible by other natural number. 
 3. A natural number greater than 1 that is not prime is called a composite number.
 ```
 
-### Solution Code:
+## Solution Code:
 #### Step 1
 ```Racket
 (define m 2) ; n must >=2
@@ -37,7 +37,7 @@ A prime number (or a prime) is a natural number greater than 1 that cannot be fo
     (prime-filter n (+ m 1))))) ; try next number of m (m+1), whether can be divided by n
 ```
 
-### Question Output:
+## Question Output:
 ```Racket
 > (decide-prime 4)
     #f
@@ -52,7 +52,7 @@ A prime number (or a prime) is a natural number greater than 1 that cannot be fo
 ```
 
 
-### References:
+## References:
 
 - [Scheme prime numbers](https://stackoverflow.com/questions/13791047/scheme-prime-numbers)
 

@@ -11,7 +11,7 @@
 ; > (collatz-list 9) ===> '(9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1)
 ; > (collatz-list 2) ===> '(2 1)
 
-; cond reference: https://docs.racket-lang.org/guide/conditionals.html
+; cond reference: https://docs.racket-lang.org/reference/if.html?q=cond#%28form._%28%28lib._racket%2Fprivate%2Fletstx-scheme..rkt%29._cond%29%29
 ; cond :Each test- expr is evaluated in order. If it produces #f, the corresponding bodys are ignored, and evaluation proceeds to the next test-expr. As soon as a test-expr produces a true value, its bodys are evaluated to produce the result for the cond form, and no further test-exprs are evaluated.
 
 ; ni+1 = 3ni + 1 (if ni is odd), otherwise ni+1 = ni / 2

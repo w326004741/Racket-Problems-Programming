@@ -10,6 +10,18 @@
 serve as a platform for language creation, design, and implementation. The language is used in a variety of contexts such as
 scripting, general-purpose programming, computer science education, and research.
 
+## How to Run?
+1. To run the solution you will need to ensure that you have [Racket](https://racket-lang.org/) installed locally.          
+2. Once [Racket](https://racket-lang.org/) is installed you can **clone**/**download** this repository      
+3. cd Theory-of-Algorithms-CA      
+```
+Run your racket file:
+racket 'your .rkt file' (e.g. racket 1.decide-prime/1.decide-prime.rkt).
+or
+Run the scripts (.vscode/tasks.json):
+run command(Mac): cmd + shift + B.
+```
+
 ## Getting started with Racket
 - Download and Install Racket click [here](https://download.racket-lang.org/), and then started DrRacket.
 - [Racket Documentation](https://docs.racket-lang.org/)

@@ -15,7 +15,7 @@
     (if (null? l1)
     0 ; not null
     ; compare (car l1) & (car l2) equal?
-    (if (equal? (car l1) (car l2))
+    (if (= (car l1) (car l2))
         ; if (car l1) = (car l2), then compare (cdr l1) and (cdr l2)
         (hamming-distance (cdr l1)(cdr l2))
         (+ (car l1) (car l2) (hamming-distance (cdr l1) (cdr l2)));reverse the each time when (car l1) not equal to (car l2).

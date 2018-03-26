@@ -87,6 +87,6 @@ Applies proc to the elements of the lsts from the first elements to the last. Th
 
 
 ## References:
-- [sigma](https://zh.wikipedia.org/wiki/%E6%B1%82%E5%92%8C%E7%AC%A6%E5%8F%B7)
-- [Summation](https://en.wikipedia.org/wiki/Summation)
+- [sigma - Chinese Wiki](https://zh.wikipedia.org/wiki/%E6%B1%82%E5%92%8C%E7%AC%A6%E5%8F%B7)
+- [Summation - Wiki](https://en.wikipedia.org/wiki/Summation)
 - [How to do square in racket](https://stackoverflow.com/questions/22560573/how-to-do-square-in-racket)
